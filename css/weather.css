@@ -5,11 +5,53 @@ body {
       sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background-color: rgba(0, 255, 255, 0.359);
+    background-color: rgba(0, 0, 0, 0.052);
     color: green;
   }
   
   code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
       monospace;
+  }
+  .container {
+    padding: 4%;
+  }
+  .cart {
+    width: 650px;
+    width: 0 auto;
+    display: flex;
+    flex-direction: row;
+    /* background-color: green; */
+    justify-content: space-between;
+    padding: 2%;
+    border: 1px solid rgba(0, 0, 0, 0.112);
+    margin: 0 auto;
+    border-radius: 2px;
+    margin-bottom: 2%;
+    
+  }
+  .cart:hover {
+    box-shadow: 8px 8px 20px 1px rgba(0, 0, 0, 0.23);
+  } 
+
+  .subt {
+    display: flex;
+    flex-direction: row;
+    /* background-color: green; */
+    justify-content: center;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.781);
+   
+  }
+  .subt:hover {
+    text-decoration: underline;
+  }
+  .subt1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-right: 2%;
+    color: rgba(0, 0, 0);
+  }
+  .subt1:hover {
+    text-decoration: none;
   }
